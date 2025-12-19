@@ -129,10 +129,11 @@ void solve()
 	  size() = O(1)
 
 	  Note : multimap : Multimap is an associative container similar to map, but it can have multiple elements with same keys.
+						Stores elements in sorted order by key
 			 unordered_map : unordered_map is an unordered associative container that stores data in the form of unique key-value pairs.
-			 But unlike map, unordered map stores its elements using hashing.
-			 This provides average constant-time complexity O(1) for search, insert, and delete operations
-			 but the elements are not sorted in any particular order.
+							 But unlike map, unordered map stores its elements using hashing.
+							 This provides average constant-time complexity O(1) for search, insert, and delete operations
+							 but the elements are not sorted in any particular order.
 	*/
 
 	// 8. priority_queue : it is similar to stack/queue data structure but it stores largest element at the top. Uses heap internally
